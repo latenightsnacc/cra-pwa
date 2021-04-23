@@ -8,8 +8,8 @@ export default function Navbar() {
         <nav>
             <div className="container border-b-4 border-b-gray-300 relative">
                 <div className="flex flex-row justify-between py-3 ">
-                    <a href="index.html" className="h-8">
-                        <img className="h-full" src={logo} alt="" />
+                    <a href="index.html">
+                        <img className="h-20" src={logo} alt="" />
                     </a>
                     <button className="relative">
                         <span className="material-icons-outlined">

@@ -4,7 +4,7 @@ import PriceMenu from './PriceMenu'
 
 export default function MobileMenu() {
     return (
-        <div className="bg-white w-100  mx-0 block md:hidden">
+        <div className="bg-white w-100 fixed overflow-y-scroll left-0 block md:hidden">
             {/* <!--Category Menu--> */}
             <CategoryMenu title="filter" />  
             <PriceMenu />

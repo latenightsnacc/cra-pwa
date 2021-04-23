@@ -4,9 +4,9 @@ import PriceMenu from './PriceMenu'
 
 export default function MobileMenu() {
     return (
-        <div className="bg-white w-100  mx-0 block md:hidden">
+        <div className="bg-white w-100 relative block md:hidden">
             {/* <!--Category Menu--> */}
-            <CategoryMenu title="filter" />  
+            <CategoryMenu />  
             <PriceMenu />
             {/* <!--CONTROL BUTTONS--> */}
             <div className="bg-white  w-96 h-28 z-50 flex flex-row items-center justify-between border-t-4 border-t-gray-300 px-5">

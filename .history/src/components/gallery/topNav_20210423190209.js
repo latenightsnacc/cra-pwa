@@ -23,7 +23,7 @@ export default class TopNav extends React.Component {
     const { open } = this.state;
     return (
         <nav className="w-full flex flex-row justify-between py-5">
-            <div className="text-2xl md:text-3xl text-black font-bold">Photography/<span className="text-gray-300 text-2xl md:text-3xl font-normal"> Premium Photos</span></div>
+            <div className="text-2xl md:text-3xl text-black font-bold">Photography/<span className="text-gray-300 text-base md:text-3xl font-normal"> Premium Photos</span></div>
             <div className="flex">
                 {/* ASCENDING ORDER BUTTON */}
                 <button className="hidden md:block">

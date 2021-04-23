@@ -7,7 +7,7 @@ export default function CartItem() {
             <div className="w-2/3">
                 <div className="text-lg font-bold capitalize text-black">samurai king resting </div>
                     <div className="flex flex-row items-center text-gray-600 text-2xl">
-                        <span className="text-lg"> <i className="fas fa-dollar-sign"></i></span>10000.00</div>
+                        <span className="text-base"> <i className="fas fa-dollar-sign"></i></span>10000.00</div>
                     </div>
                             {/* <!--ITEM IMAGE--> */}
                     <div className="w-1/3">
