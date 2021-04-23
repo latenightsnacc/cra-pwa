@@ -1,6 +1,5 @@
 import React from 'react'
 import RelatedImage from './RelatedImage'
-import LoadingRelatedImage from './LoadingRelatedImage'
 
 export default function RelatedPosts() {
     return (
@@ -9,7 +8,7 @@ export default function RelatedPosts() {
             {/* <!--Related Images--> */}
             <div className="flex flex-row py-2 md:py-24">
                         
-                <LoadingRelatedImage />
+                <RelatedImage />
                 <RelatedImage />
                 <RelatedImage />
                 
