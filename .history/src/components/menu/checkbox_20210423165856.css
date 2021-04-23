@@ -1,8 +1,12 @@
 .checkbox {
     display: inline-flex;
+    cursor: pointer;
 }
 
-
+.checkbox > span {
+   
+    padding: 0.5rem 0.25rem;
+}
 
 
 
@@ -14,14 +18,13 @@
 .checkbox > input:checked + span::before {
     content: '\2713';
     display: block;
-    font-size: 14px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
     padding: auto;
     position: absolute;
-    left: 6px;
-    top: 0;
+    left: 0.7rem;
+    top: 0.2rem;
 }
 
 .checkbox > input:active {

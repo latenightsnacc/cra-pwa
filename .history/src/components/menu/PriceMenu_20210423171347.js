@@ -14,7 +14,7 @@ export default class PriceMenu extends Component {
   
       render(){
         return (
-            <div className="pt-3 w-full">
+            <div className="hidden md:block pt-3 w-full">
                 <ul className="pl-0 pb-3">
                     <div className="text-black font-bold text-xl capitalize mb-3">price range</div>
                     <label className="checkbox relative flex flex-row items-center mb-4">

@@ -1,5 +1,5 @@
 import React from 'react'
-import './checkbox.css'
+import './check.css'
 
 export default function CategoryMenu() {
     return (

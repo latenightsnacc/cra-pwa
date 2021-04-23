@@ -1,9 +1,8 @@
 import React from 'react'
-import './checkbox.css'
 
 export default function CategoryMenu() {
     return (
-        <div className="mr-10 border-b-2 border-b-gray-300">
+        <div className="hidden md:block mr-10 border-b-2 border-b-gray-300">
             <ul className="flex flex-col pl-0 pb-5">
                 <div className="text-black font-bold text-xl capitalize mb-3">category</div>
                 <label className="checkbox relative flex flex-row items-center mb-4">
