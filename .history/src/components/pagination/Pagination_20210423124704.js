@@ -7,7 +7,7 @@ export default function Pagination() {
                 <ul className="flex flex-row items-center h-16 justify-center">
                     <li>
                         <a className="text-black text-xl md:text-3xl no-underline hover:text-black hover:no-underline text-base" aria-label="Previous">
-                        <i class="fas fa-chevron-left"></i>
+                        <i className="fas fa-chevron-left"></i>
                         </a>
                     </li>
                     <li>
@@ -24,7 +24,7 @@ export default function Pagination() {
                     </li>
                     <li>
                         <a className="text-black text-xl md:text-3xl no-underline hover:text-black hover:no-underline" aria-label="Previous">
-                        <i class="fas fa-chevron-right"></i>                        </a>
+                        <i className="fas fa-chevron-right"></i>                        </a>
                     </li>
                 </ul>
             </nav>

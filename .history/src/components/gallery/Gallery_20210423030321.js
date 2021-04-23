@@ -16,13 +16,13 @@ export default function Gallery() {
                     {/* <!--GALLERY IMAGES--> */}
                     <div className="w-full flex flex-col md:w-3/4">
                         {/* <!--ROW ONE--> */}
-                        <div class="flex flex-col  md:flex-row md:justify-center">
+                        <div className="flex flex-col  md:flex-row md:justify-center">
                             <GalleryImage />
                             <GalleryImage />
                             <GalleryImage />
                         </div>
                         {/* <!--ROW TWO--> */}
-                        <div class="flex flex-col items-center md:flex-row md:justify-center"></div>
+                        <div className="flex flex-col items-center md:flex-row md:justify-center"></div>
                     </div>
                 </div>
                 

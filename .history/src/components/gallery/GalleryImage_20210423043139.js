@@ -23,7 +23,7 @@ export default function GalleryImage() {
                     {/* <!--Image Title--> */}
                     <div className="font-bold text-black text-2xl capitalize">red bench</div>
                     {/* <!--Image Price--> */}
-                    <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span class="text-xl">3.98</span></div>     
+                    <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span className="text-xl">3.98</span></div>     
         </div>
     )
 }

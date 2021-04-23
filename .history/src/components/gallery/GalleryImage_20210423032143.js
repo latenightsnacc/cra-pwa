@@ -22,7 +22,7 @@ export default function GalleryImage() {
                     {/* <!--Image Title--> */}
                 <div className="font-bold text-black text-2xl capitalize">red bench</div>
                 {/* <!--Image Price--> */}
-                <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span class="text-xl">3.98</span></div> 
+                <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span className="text-xl">3.98</span></div> 
                 </div>
                 {/* <!--Image Category Tag--> */}
                 <div className="text-sm text-left text-gray-600 capitalize pt-2 font-semibold">people</div>
@@ -33,7 +33,7 @@ export default function GalleryImage() {
             {/* <!--Image Title--> */}
             <div className="font-bold text-black text-2xl capitalize">red bench</div>
             {/* <!--Image Price--> */}
-            <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span class="text-xl">3.98</span></div>
+            <div className="text-gray-600  flex flex-row items-center"> <span className="text-sm material-icons-outlined">attach_money</span><span className="text-xl">3.98</span></div>
         </div>
     )
 }

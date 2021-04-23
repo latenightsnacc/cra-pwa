@@ -25,13 +25,13 @@ export default class TopNav extends React.Component {
             <div className="text-base md:text-3xl text-black font-bold">Photography/<span className="text-gray-300 text-base md:text-3xl font-normal"> Premium Photos</span></div>
             <div className="flex">
                 <button className="hidden md:block flex  items-center  md:mr-3 text-gray-400">
-                    <i class="fas fa-arrow-up"></i>
-                    <i class="fas fa-arrow-down"></i>
+                    <i className="fas fa-arrow-up"></i>
+                    <i className="fas fa-arrow-down"></i>
                     <span className="text-lg">Sort by</span>
                 </button>
                 <button className="hidden md:block flex justify-center items-center text-lg text-black">
                     <span>Price</span>
-                    <i class="fas fa-chevron-down"></i>
+                    <i className="fas fa-chevron-down"></i>
                 </button>
                 <button className=" md:hidden flex flex-row items-center text-black">
                     <span className="material-icons-outlined" onClick={this.onOpenModal}>filter_alt</span>

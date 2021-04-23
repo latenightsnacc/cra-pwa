@@ -25,7 +25,7 @@ export default class TopNav extends React.Component {
             <div className="text-base md:text-3xl text-black font-bold">Photography/<span className="text-gray-300 text-base md:text-3xl font-normal"> Premium Photos</span></div>
             <div className="flex">
                 <button className="hidden md:block flex  items-end text-lg md:mr-3 text-gray-400">
-                <span class="material-icons-outlined">arrow_upward</span>
+                <span className="material-icons-outlined">arrow_upward</span>
                     <span className="material-icons-outlined">import_export</span>
                     <span>Sort by</span>
                 </button>
