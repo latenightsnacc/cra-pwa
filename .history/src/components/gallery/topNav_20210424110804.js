@@ -2,7 +2,6 @@ import React from 'react';
 import "react-responsive-modal/styles.css";
 import '../menu/mobileMenu.css'
 import { Modal } from "react-responsive-modal";
-import filterIcon from './filterIcon-.png'
 
 // include styles
 import 'rodal/lib/rodal.css';
@@ -50,8 +49,8 @@ export default class TopNav extends React.Component {
                     <option>Option 1</option>
                     <option>Option 1</option>
                 </select>
-                <button className=" md:hidden flex flex-row justify-end items-center w-8 ml-16">
-                    <img className="w-full" src={filterIcon} alt="filter icon" onClick={this.onOpenModal} />
+                <button className=" md:hidden flex flex-row items-center text-2xl text-black">
+                    <img src={} alt="filter icon" onClick={this.onOpenModal} />
                     
                 </button>
             </div>

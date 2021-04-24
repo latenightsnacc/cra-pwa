@@ -50,7 +50,7 @@ export default class TopNav extends React.Component {
                     <option>Option 1</option>
                     <option>Option 1</option>
                 </select>
-                <button className=" md:hidden flex flex-row justify-end items-center w-8 ml-16">
+                <button className=" md:hidden flex flex-row items-center w-8">
                     <img className="w-full" src={filterIcon} alt="filter icon" onClick={this.onOpenModal} />
                     
                 </button>
