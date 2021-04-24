@@ -11,10 +11,8 @@ export default function Hero() {
                     
                     <h3 className="capitalize text-2xl md:text-3xl font-bold">samurai king resting</h3>
                     
-                    <div className="hidden md:block">
-                        <Button label="add to cart" />
-                    </div>
-                    
+                    <div className="hidden xl:block"></div>
+                    <Button label="add to cart" />
                 </div>
             
             <div className="relative py-3 ">

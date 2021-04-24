@@ -5,7 +5,7 @@ import image from './image.jpg'
 
 export default function GalleryImage() {
     return (
-        <div className="w-80 sm:w-96 md:w-64 lg:w-72 mb-5">
+        <div className="w-80 sm:w-96 lg:w-72 mb-5">
             <div className=" flex flex-col items-end">
                 <div className="group relative">
                     <img className="w-full" src={image} alt="" />
