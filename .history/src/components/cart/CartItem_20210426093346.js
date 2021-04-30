@@ -3,7 +3,7 @@ import potd from './potd.jpg'
 import cartImg from './image.jpg'
 export default function CartItem() {
     return (
-        <div className="flex flex-row h-auto max-h-32 items-center my-3 border-b-2 border-b-gray-100 p-2">
+        <div className="flex flex-row h-auto max-h-32 items-center my-3 border-b-2 border-b-gray-100">
             {/* <!--ITEM DETAILS--> */}
             <div className="w-2/3">
                 <div className="text-lg font-bold capitalize text-black">samurai king resting </div>
